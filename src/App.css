@@ -1,0 +1,162 @@
+/* #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+} */
+
+#head-text {
+    color: #202020;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    /* margin-bottom: 0.4em; */
+}
+#head-text-orange {
+    color: #fc8019;
+}
+#banana {
+    height: 0.8em;
+    width: 2em;
+}
+#main-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#total-container {
+    margin-left: 11em;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-top: 2em;
+    position: absolute;
+}
+#whole-contaoner {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+}
+#logo-style {
+    height: 0.8em;
+    width: 1em;
+}
+#bag-style {
+    height: 1.5em;
+    width: 1.2em;
+    margin-left: 1em;
+}
+#web-name {
+    font-weight: 800;
+    color: #202020;
+    font-family: "Poppins", sans-serif;
+}
+#place-input {
+    height: 2em;
+    width: 28em;
+    border-radius: 0.8em;
+    border: 1px solid #808080;
+}
+#start-button {
+    color: white;
+    background-color: #202020;
+    margin-left: 1em;
+    height: 2em;
+    width: 8em;
+    padding: 0;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#text-underButton {
+    font-weight: 600;
+    margin-bottom: 1em;
+    font-family: "Poppins", sans-serif;
+}
+
+#cities {
+    color: #fc8019;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+#city {
+    font-weight: 500;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+#top-search {
+    border: 1px solid #808080;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin-left: 40em;
+    font-family: "Poppins", sans-serif;
+}
+#item-input {
+    border: 0px solid #808080;
+    border-radius: 0.8em;
+}
+#search-style {
+    margin-left: 1.5em;
+    height: 0.8em;
+    width: 1em;
+}
+#sign-in-button {
+    color: white;
+    background-color: #202020;
+    margin-left: 1em;
+    height: 2em;
+    width: 4em;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#text-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+}
+#foodOne {
+    height: 25em;
+    width: 15em;
+    margin-left: 2em;
+}
+#foodTwo {
+    height: 23em;
+    width: 12em;
+    margin-left: 2em;
+}
+#background-graphics {
+    background-color: #fddec4;
+    height: 8em;
+    width: 30em;
+    transform: rotate(-45deg);
+    border-radius: 5em;
+    margin-top: 20em;
+    margin-left: -18em;
+}
+#background-graphics-right {
+    border: 6px solid #fddec4;
+    height: 8em;
+    width: 30em;
+    transform: rotate(45deg);
+    border-radius: 5em;
+    margin-top: -6em;
+    margin-left: 75em;
+}
+#paragraph {
+    font-family: "Poppins", sans-serif;
+}
