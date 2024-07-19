@@ -4,6 +4,17 @@
     background-color: #f8f8f8;
     padding: 0.5em;
 }
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.cartContainer {
+    position: absolute;
+    margin-left: 65em;
+    margin-top: 15em;
+    border: solid red 1px;
+}
 #image {
     height: 6em;
     width: 6em;
@@ -37,10 +48,12 @@
     color: black;
     margin-block: 0.3em;
 }
-#contentArray {
+.contentArray {
     display: flex;
     flex-direction: column;
     place-items: center;
+    align-items: center;
+    justify-content: center;
 }
 #dataArray {
     /* display: grid;

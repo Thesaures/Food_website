@@ -1,0 +1,28 @@
+.buyCart {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    place-items: center;
+    z-index: 1;
+}
+.modaldiv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(87, 233, 87);
+    height: 15em;
+    width: 40em;
+    z-index: 3;
+    top: 4em;
+    left: 14em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+.cardsincart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}

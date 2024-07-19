@@ -1,0 +1,10 @@
+.dropdownCard {
+    position: absolute;
+    z-index: 2;
+    margin-left: 12em;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border: solid red 1px;
+}
